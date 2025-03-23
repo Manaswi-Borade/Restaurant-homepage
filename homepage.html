@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Name - Home</title>
+    <link rel="stylesheet" href="styles.css">
+
+<style>
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f7f7f7;
+}
+
+header {
+    background-color: #333;
+    padding: 15px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+nav h1 {
+         color:  #638dd7; 
+         margin: 0; 
+         text-align: left;
+}
+
+.logo img {
+    width: 150px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links li {
+    display: inline-block;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.order-button {
+    background-color: #FFC72C;
+    color: #333;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.order-button:hover {
+    background-color: #e6b31a;
+}
+
+.hero {
+    background-image: url('thali4.jpg'); /* Background image of the wood texture */
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    position: relative;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.5); /* Overlay to darken the image */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.overlay h1 {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.overlay p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+</style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="logo1.png" alt="Thali Temptations Logo">
+            </div>
+            <ul class="nav-links">
+                <a href="login.html">Login</a>
+                <a href="about.html">About Us</a>
+                <a href="menuandorder.html">Menu</a>
+                <a href="reservations.html">Reservations</a>
+                <a href="rating.html">Rating</a>
+                <a href="contact.html">Contact Us</a>
+       
+            </ul>
+            <h1>Welcome to Our Restaurant!</h1>
+        </nav>
+    </header>
+    
+    <section class="hero">
+        <div class="overlay">
+            <h1>Thali Temptations</h1>
+            <p>Experience the best dining experience.</p>
+        </div>
+    </section>
+</body>
+</html>
